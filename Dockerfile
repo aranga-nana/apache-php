@@ -1,6 +1,4 @@
 FROM ubuntu:16.04
-LABEL author:"Aranga Nanayakkara" \
-	  description: "apache2 with PHP on Ubuntu 16.04" 	
 
 ENV APACHE_RUN_USER www-data
 ENV APACHE_RUN_GROUP www-data
